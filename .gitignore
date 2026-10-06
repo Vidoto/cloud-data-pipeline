@@ -1,0 +1,38 @@
+# Secrets and local configuration
+.env
+local.settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# Lambda packages and build artifacts
+lambda_package/
+lambda_package_build/
+*.zip
+
+# Temporary/generated files
+*.tmp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+
+# Pipeline runtime data
+data/raw/
+data/processed/
+data/metadata/
+data/checkpoints/
